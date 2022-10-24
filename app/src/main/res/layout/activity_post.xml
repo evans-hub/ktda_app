@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".post">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ShowImageView"
+        android:layout_below="@+id/textview"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/ButtonChooseImage"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_bk"
+        android:text="Choose image"
+        android:textAlignment="center" />
+            <EditText
+                android:id="@+id/orderr"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:hint="order"
+                android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:hint="X value"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:hint="quantity"
+        android:padding="20dp" />
+
+
+
+    <Button
+        android:id="@+id/ButtonUploadImage"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_bk"
+        android:text="Upload" />
+
+</LinearLayout>
+</LinearLayout>

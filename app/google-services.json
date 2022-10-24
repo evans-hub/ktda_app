@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957067401944",
+    "project_id": "ktda-14683",
+    "storage_bucket": "ktda-14683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957067401944:android:98528073bfcb4de1a995ad",
+        "android_client_info": {
+          "package_name": "com.evans.kk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957067401944-96am5v2cnkmpvetk4p6i5on8jqu9vjjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5WJQAm8v3tho587jZjpdlLXS2u8NtvPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957067401944-96am5v2cnkmpvetk4p6i5on8jqu9vjjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
